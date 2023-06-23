@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ShopWare</title>
+  <style>
+    .sidebar {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background: linear-gradient(to bottom right, #140a9d, #085db2);
+      overflow-x: hidden;
+      padding-top: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .sidebar a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+
+    }
+
+    .sidebar a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #4527f1, #120029);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Cart-Container {
+      width: 20%;
+      margin: 5px;
+      height: 60%;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0px 25px 40px #1687d933;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .button{
+      background-color: orange;
+      border-color: darkblue;
+      color: rgb(255, 0, 0);
+
+
+      }
+  </style>
+</head>
+
+<body>
+  
+  <div class="sidebar">
+    <a href=""><img width="150px" height="150px" src="ShopWare.png"></a>
+    <a href="#" class="active">Home</a>
+    <a href="AbtUs.html">About Us</a>
+    <a href="AbtUs.html">Credits</a>
+  </div>
+  <div class="content">
+  </div>
+  <div class="Cart-Container">
+    <center><img src="light.jpg" height="200px" width="200px"></center>
+  </div>
+  <div class="Cart-Container">
+    <center><img src="wire.jpg" height="200px" width="200px"></center>
+    <center>
+      <p>Electric Wire</p>
+    </center><br>
+    <center>Price: 10 Rs.<br></center>
+    <center><a href="Buy.html" class="button">Buy Now</a></center>
+  </div>
+  <div class="Cart-Container">
+    <center><img src="r.webp" height="200px" width="200px"></center>
+    <center>
+      <p>Electric Resistor</p>
+    </center><br>
+    <center>Price: 5 Rs.<br></center>
+    <center><a href="Buy.html" class="button">Buy Now</a></center>
+  </div>
+  <div class="Cart-Container">
+    <center><img src="rechj.webp" height="200px" width="200px"></center>
+    <center>
+      <p>Rechargable Electric Battery</p>
+    </center><br>
+    <center>Price: 210 Rs.<br></center>
+    <center> <a href="Buy.html" class="button">Buy Now</a></center>
+  </div>
+  <div class="Cart-Container">
+    <center><img src="m.webp" height="200px" width="200px"></center>
+    <center>
+      <p>Electric Motor</p>
+    </center><br>
+    <center> Price: 250 Rs.<br></center>
+    <center><a href="Buy.html" class="button">Buy Now</a></center>
+  </div>
+  <div class="Cart-Container">
+    <center><img src="amme.jpg" height="200px" width="200px"></center>
+    <center>
+      <p>Ammeter</p>
+    </center><br>
+    <center> Price: 575 Rs.<br></center>
+    <center> <a href="Buy.html" class="button">Buy Now</a>
+  </div>
+  <div class="Cart-Container">
+    <center><img src="light.jpg" height="200px" width="200px"></center><br>
+    <center>
+      <p>Electric Bulb</p>
+    </center><br>
+    <center>Price: 250 Rs.<br></center>
+    <center><a href="Buy.html" class="button">Buy Now</a></center>
+  </div>
+</body>
